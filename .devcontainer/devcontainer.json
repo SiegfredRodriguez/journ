@@ -2,5 +2,15 @@
     "name": "Journ",
     "build": {
         "dockerfile": "dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers-contrib/features/angular-cli:2": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Angular.ng-template"
+            ]
+        }
     }
 }
