@@ -1,0 +1,6 @@
+{
+    "name": "Journ",
+    "build": {
+        "dockerfile": "dockerfile"
+    }
+}
