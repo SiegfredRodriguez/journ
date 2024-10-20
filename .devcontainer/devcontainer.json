@@ -3,6 +3,7 @@
     "build": {
         "dockerfile": "dockerfile"
     },
+    "postStartCommand": "yarn install",
     "features": {
         "ghcr.io/devcontainers-contrib/features/angular-cli:2": {}
     },
